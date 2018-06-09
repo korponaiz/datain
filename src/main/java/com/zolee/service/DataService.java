@@ -3,10 +3,12 @@ package com.zolee.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.zolee.domain.Data;
 import com.zolee.repository.DataRepository;
 
+@Service
 public class DataService {
 
 	private DataRepository dataRepository;
